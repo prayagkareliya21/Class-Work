@@ -1,0 +1,7 @@
+create function f1 (enum number) return varchar2 is enm varchar2(10);
+
+begin
+	select ename into enm from emp where eno = enum;
+	return enm;
+
+end;

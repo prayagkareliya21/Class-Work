@@ -1,0 +1,9 @@
+// To call the function
+
+declare enm varchar(10);
+
+begin
+	enm:= f1(1);
+	dbms_output.put_line ('Your name is ' || enm);
+
+end;
